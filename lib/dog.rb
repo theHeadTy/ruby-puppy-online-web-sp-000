@@ -17,7 +17,7 @@ class Dog
   end
 
   def self.print_all
-    self.map { |name| arr << name }
+    self.inspect
   end
 
   def save
