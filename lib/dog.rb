@@ -17,7 +17,9 @@ class Dog
   end
 
   def self.print_all
-    @@all.inspect
+    arr = []
+    self.all.each { |name| arr << name }
+    arr
   end
 
   def save
