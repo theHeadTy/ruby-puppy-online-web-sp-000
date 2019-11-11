@@ -17,7 +17,6 @@ class Dog
   end
 
   def self.print_all
-    arr = []
     @@all.map { |name| name }.join("\n")
   end
 
