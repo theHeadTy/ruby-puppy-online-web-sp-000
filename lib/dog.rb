@@ -17,9 +17,7 @@ class Dog
   end
 
   def self.print_all
-    arr = []
-    self.all.each { |n| arr << n }
-    arr.join("\n")
+    @@all
   end
 
   def save
