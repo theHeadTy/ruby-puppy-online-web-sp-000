@@ -17,11 +17,11 @@ class Dog
   end
 
   def self.print_all
-    @@all.join("\n")
+    self.all
   end
 
   def save
-   @@all << self
+   self.class.all << self
   end
 
   def name
