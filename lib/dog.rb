@@ -17,9 +17,7 @@ class Dog
   end
 
   def self.print_all
-    arr = []
-    self.all.each { |name| arr << name }
-    arr
+    self.map { |name| arr << name }
   end
 
   def save
