@@ -17,7 +17,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.inspect
+    @@all.inspect.to_s
   end
 
   def save
