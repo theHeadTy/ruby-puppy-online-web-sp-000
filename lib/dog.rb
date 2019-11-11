@@ -32,6 +32,7 @@ end
 
 # create dog instance
 dog = Dog.new('Snoopy')
+dog.clear_all
 
 # create new dogs to add to @@all[]
 pluto = Dog.new('Pluto')
