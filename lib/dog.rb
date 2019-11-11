@@ -17,7 +17,7 @@ class Dog
   end
 
   def self.print_all
-    self.inspect
+    @@all.inspect
   end
 
   def save
@@ -25,7 +25,7 @@ class Dog
   end
 
   def name
-    @name
+    self
   end
 end
 
