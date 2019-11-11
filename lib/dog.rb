@@ -9,8 +9,7 @@ class Dog
   end
 
   def self.all
-    #@@all
-    self.inspect
+    @@all
   end
 
   def self.clear_all
@@ -22,8 +21,7 @@ class Dog
   end
 
   def save
-   #@@all << self
-   @@all << @name
+   @@all << self
   end
 
   def name
